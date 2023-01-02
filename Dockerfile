@@ -1,6 +1,5 @@
 FROM ghcr.io/puppeteer/puppeteer:latest
 WORKDIR /usr/src/app
-ADD dist/dist.js /usr/src/app/
-RUN npm i puppeteer
+ADD dist/index.js /usr/src/app/
 ENTRYPOINT ["node"]
-CMD ["dist.js"]
+CMD ["index.js"]

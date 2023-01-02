@@ -7,6 +7,8 @@
         "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
         "resolveJsonModule": true,
         "sourceMap": true,
+        "sourceRoot": "src",
+        "outDir": "dist",
         "lib": [
             "ES2021.String"
         ]
