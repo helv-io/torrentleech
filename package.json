@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx -m typescript tsc"
+    "build": "npx tsc"
   },
   "author": "Helvio Pedreschi",
   "license": "GPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "puppeteer": "^19.4.1"
+    "puppeteer": "^19.4.1",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
