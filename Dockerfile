@@ -1,5 +1,4 @@
 FROM ghcr.io/puppeteer/puppeteer:latest
-WORKDIR /usr/src/app
-ADD dist/index.js /usr/src/app/
+COPY dist/index.js .
 ENTRYPOINT ["node"]
 CMD ["index.js"]
